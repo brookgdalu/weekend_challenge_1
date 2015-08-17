@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Employee Database</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Employee Database</h1>
+    </header>
+            <form id="empInfo">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="First Name"/>
+                </br>
+                </br>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="Last Name"/>
+                </br>
+                </br>
+
+                    <label for="employeeNumber">Employee Number:</label>
+                    <input type="number" name="Emp Number"/>
+                </br>
+                </br>
+
+                        <label for="title">Title:</label>
+                        <select name="Emp Title" >
+                            <option value="">Title</option>
+                            <option value="DBA">DBA</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                </br>
+                </br>
+
+                        <label for="rating">Last Review Score 1-5</label>
+                        <select name="Emp Rating">
+                            <option value="">Score</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                </br>
+                </br>
+
+                    <label for="salary">Salary:</label>
+                    <input type="number" name="Salary"/>
+                </br>
+                </br>
+                </br>
+                    <button type="submit" value="Submit">Submit</button>
+                    <button type="reset" value="Reset">Reset</button>
+        </form>
+       
+       <h1>Employee List</h1>
+        <h2>JSON</h2>
+
+<pre id="result"></pre>
+
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+   
+
+    body {
+    	text-align: center;
+    	background-color: #ffffff; 
+
+
+    }
+
+    h1 {
+    	color: #000000;
+    	font: 50px arial, sans-serif;
+    	text-align:center;
+		text-shadow: 1px 1px 1px #CC9;
+    }
+
+    h2 {
+        color: #ffffff;
+    }
+
