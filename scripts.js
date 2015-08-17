@@ -1,3 +1,23 @@
+//1. Capture and store information from the Employee Database form in an OBJECT
+
+
+
+
+//2. Construct an <ul> of all the information captured in the OBJECT; a full list of employees should be represented on the screen
+
+
+
+
+//3. Add a REMOVE button grouped next to each employeee's information
+
+
+
+
+//4. Review score section should have a color indicator based on score; 5 = good and 1 = poor
+
+
+
+
 $.fn.serializeObject = function () {
     var o = {};
     var a = this.serializeArray();
