@@ -11,33 +11,36 @@
     <header>
         <h1>Employee Database</h1>
     </header>
-            <form id="empInfo">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" name="First Name"/>
+            <form id="EmployeeInfo">
+                <fieldset>
+                    <legend>Enter Employee Information</legend>
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" name="First Name" id="FirstName"/>
                 </br>
                 </br>
 
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" name="Last Name"/>
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" name="Last Name" id="LastName"/>
                 </br>
                 </br>
 
-                    <label for="employeeNumber">Employee Number:</label>
-                    <input type="number" name="Emp Number"/>
+                    <label for="EmployeeNumber">Employee Number:</label>
+                    <input type="number" name="Emp Number" id="EmployeeNumber"/>
                 </br>
                 </br>
 
-                        <label for="title">Title:</label>
-                        <select name="Emp Title" >
-                            <option value="">Title</option>
-                            <option value="DBA">DBA</option>
-                            <option value="Admin">Admin</option>
-                        </select>
+                    <label for="Title">Title:</label>
+                    <input type="text" name="Title" id="Title"/>
+
+                        
                 </br>
                 </br>
 
-                        <label for="rating">Last Review Score 1-5</label>
-                        <select name="Emp Rating">
+                   <!--  <label for="Rating">Last Review Score 1-5</label>
+                    <input type="text" name="Rating" id="Rating"/> -->
+                </br>
+                <label for="Rating">Review Score: 1-5</label>
+                        <select name="Rating" id="Rating">
                             <option value="">Score</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -45,22 +48,19 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                </br>
-                </br>
 
-                    <label for="salary">Salary:</label>
-                    <input type="number" name="Salary"/>
+                    <label for="Salary">Salary:</label>
+                    <input type="number" name="Salary" id="Salary"/>
                 </br>
                 </br>
                 </br>
-                    <button type="submit" value="Submit">Submit</button>
+                    <input type="submit" onclick="showInput();">
                     <button type="reset" value="Reset">Reset</button>
         </form>
-       
+       </fieldset>
        <h1>Employee List</h1>
-        <h2>JSON</h2>
-
-<pre id="result"></pre>
+        
+<ul id="Employees"></ul>
 
 
 
