@@ -1,20 +1,39 @@
-   
+
 
     body {
     	text-align: center;
-    	background-color: #ffffff; 
+    	background-color: #AA8439; 
+        font: 16px arial, sans-serif;
+
 
 
     }
 
     h1 {
-    	color: #000000;
-    	font: 50px arial, sans-serif;
+    	color: #553900;
+    	font: 30px arial, sans-serif;
     	text-align:center;
 		text-shadow: 1px 1px 1px #CC9;
     }
 
-    h2 {
+    ul {
         color: #ffffff;
+        font: 12px arial, sans-serif;
+
     }
 
+.score1{
+  background-color: #550000;
+}
+.score2{
+  background-color: #801515;
+}
+.score3{
+  background-color: #88CC88;
+}
+.score4{
+  background-color: #2D882D;
+}
+.score5{
+  background-color: #004400;
+}
